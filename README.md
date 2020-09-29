@@ -129,6 +129,36 @@ Container en Heroku:
 
 ![](/img/7.jpg)
 
+### PART 3
+
+Código para obtener datos Heroku:
+
+```
+componentDidMount() {
+    fetch('https://serene-castle-82142.herokuapp.com/user')
+        .then(response => response.json())
+        .then(data => {
+            let usersList = [];
+            data.map((user) => {
+                usersList.push({
+                    email:user.email,
+                    fullName:user.fullName,
+                    password: user.password
+                })
+             });
+            this.setState({userList: usersList});
+        });
+}
+```
+
+Clase UserList:
+
+
+
+Datos obtenidos del backend:
+
+![](/img/8.jpg)
+
 # Autores
 
 - [Diego Alejandro Puerto Gómez](https://github.com/Diego23p)
