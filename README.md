@@ -77,31 +77,31 @@ Para ejecutar la aplicación localmente:
 
 #### EndPoints:
 
-##### getAll: (get)
+##### GetAll: (get)
 
 ``` http://localhost:8080/user ```
 
 ![](/img/1.jpg)
 
-##### getById: (get)
+##### GetById: (get)
 
 ``` http://localhost:8080/user/getById/<User> ```
 
 ![](/img/2.jpg)
 
-##### create: (post)
+##### Create: (post)
 
 ``` http://localhost:8080/user ```
 
 ![](/img/3.jpg)
 
-##### update: (put)
+##### Update: (put)
 
 ``` http://localhost:8080/user ```
 
 ![](/img/4.jpg)
 
-##### remove: (delete)
+##### Remove: (delete)
 
 ``` http://localhost:8080/user/removeById/<id> ```
 
@@ -153,7 +153,7 @@ componentDidMount() {
 
 Clase UserList:
 
-
+https://github.com/Diego23p/IETI_6/blob/master/FrontEnd/src/components/User/UserList.js
 
 Datos obtenidos del backend:
 
