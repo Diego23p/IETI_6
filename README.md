@@ -157,6 +157,10 @@ https://github.com/Diego23p/IETI_6/blob/master/FrontEnd/src/components/User/User
 
 Datos obtenidos del backend:
 
+(Abrir en FireFox con el complemento para evitar la restricción de validación de CORS)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://murmuring-shore-65404.herokuapp.com/)
+
 ![](/img/8.jpg)
 
 # Autores
